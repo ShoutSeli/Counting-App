@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./Layout";
-import HomePage from "./Home";
-import Calculator from "./Calculator";
-import Settings from "./Settings";
-import Contact from "./Contact";
+import Layout from "./Components/Layout";
+import HomePage from "./Components/Home";
+import Calculator from "./Components/Calculator";
+import Settings from "./Components/Settings";
+import Contact from "./Components/Contact";
 
 const App: React.FC = () => {
   // 🔹 Add Theme State
